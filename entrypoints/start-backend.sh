@@ -25,7 +25,7 @@ python manage.py test
 # Check if in development environment and seed data
 if [ "$FAKEDATA" = "True" ]; then
     echo "Seeding database with fake data"
-    python manage.py spawn_fake_data
+    python manage.py spawn_fake_data --users=50 --entities_per_user=20
 fi
 
 

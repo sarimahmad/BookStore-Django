@@ -4,6 +4,7 @@ from rest_framework.test import APITestCase
 from .models import Author, Category, Book, Cart, Purchase
 from accounts.models import StoreUser
 
+
 class StoreTests(APITestCase):
 
     def setUp(self):
@@ -26,7 +27,7 @@ class StoreTests(APITestCase):
         )
         self.cart = Cart.objects.create(user=self.user)
         self.cart.books.add(self.book)
-        self.purchase_url = reverse('purchase-list')
+        self.purchase_url = reverse('purchases-list')
         self.book_url = reverse('books-list')
 
     def test_create_book(self):

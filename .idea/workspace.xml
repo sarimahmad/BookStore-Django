@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f705f01-67f2-4181-8f5a-85ea7af48b36" name="Changes" comment="" />
+    <list default="true" id="6f705f01-67f2-4181-8f5a-85ea7af48b36" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/ci-cd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/management/commands/spawn_fake_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/management/commands/spawn_fake_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/entrypoints/start-backend.sh" beforeDir="false" afterPath="$PROJECT_DIR$/entrypoints/start-backend.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/store/tests.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
